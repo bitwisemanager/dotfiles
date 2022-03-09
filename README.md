@@ -107,6 +107,6 @@ the code bellow in the `coc-setting.json` file which will be opened.
 
 ```json
 {
-    clang.enabled: true
+    "clang.enabled": true
 }
 ```
