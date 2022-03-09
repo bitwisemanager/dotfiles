@@ -14,7 +14,7 @@ modify and use it as needed.
     * [Installing the Coc Extensions](https://github.com/kodestrider/dotfiles/blob/main/README.md#installing-the-coc-extensions)
     * [Configuring the Coc Plugins](https://github.com/kodestrider/dotfiles/blob/main/README.md#configuring-the-coc-plugins)
 * [Clang-Format](https://github.com/kodestrider/dotfiles/blob/main/README.md#clang-format)
-    * [External Dependencies](https://github.com/kodestrider/dotfiles/blob/main/README.md#external-dependencies)
+    * [External Dependencies](https://github.com/kodestrider/dotfiles/blob/main/README.md#external-dependencies-1)
     * [How to Change the Style Guide](https://github.com/kodestrider/dotfiles/blob/main/README.md#how-to-change-the-style-guide)
 
 # (Neo)vim
