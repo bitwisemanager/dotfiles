@@ -9,7 +9,7 @@ modify and use it as needed.
 * [(Neo)vim](https://github.com/kodestrider/dotfiles/blob/main/README.md#neovim)
     * [External Dependencies](https://github.com/kodestrider/dotfiles/blob/main/README.md#external-dependencies)
     * [Installing (Neo)vim Plugins](https://github.com/kodestrider/dotfiles/blob/main/README.md#installing-neovim-plugins)
-    * [(Neo)vim Plugin List](https://github.com/kodestrider/dotfiles/blob/main/README.md#neovim)
+    * [(Neo)vim Plugin List](https://github.com/kodestrider/dotfiles/blob/main/README.md#neovim-plugin-list)
     * [Custom Shortcuts](https://github.com/kodestrider/dotfiles/blob/main/README.md#custom-shortcuts)
     * [Installing the Coc Extensions](https://github.com/kodestrider/dotfiles/blob/main/README.md#installing-the-coc-extensions)
     * [Configuring the Coc Plugins](https://github.com/kodestrider/dotfiles/blob/main/README.md#configuring-the-coc-plugins)
