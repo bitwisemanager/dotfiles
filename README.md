@@ -13,6 +13,9 @@ modify and use it as needed.
     * [Custom Shortcuts](https://github.com/kodestrider/dotfiles/blob/main/README.md#custom-shortcuts)
     * [Installing the Coc Extensions](https://github.com/kodestrider/dotfiles/blob/main/README.md#installing-the-coc-extensions)
     * [Configuring the Coc Plugins](https://github.com/kodestrider/dotfiles/blob/main/README.md#configuring-the-coc-plugins)
+* [Clang-Format](https://github.com/kodestrider/dotfiles/blob/main/README.md#clang-format)
+    * [External Dependencies](https://github.com/kodestrider/dotfiles/blob/main/README.md#external-dependencies)
+    * [How to Change the Style Guide](https://github.com/kodestrider/dotfiles/blob/main/README.md#how-to-change-the-style-guide)
 
 # (Neo)vim
 
@@ -110,3 +113,22 @@ the code bellow in the `coc-setting.json` file which will be opened.
     "clang.enabled": true
 }
 ```
+
+# Clang-Format
+
+File: [.clang-format](.clang-format)
+
+The current (Neo)vim configuration is able to format your code automatically, always you save a file,
+but it will follow the default clang-format rules. It's possible to change the default style guide
+overriding it with a file called `.clang-format`. Just ensure to put it on the root directory of your project
+(to change only this project) or on the parent directory to make it available for all child directories.
+
+## External Dependencies
+
+* clang-format > 13.0.1: There is a lot of ways to install clang-format (using [pip](https://pip.pypa.io/en/stable/), [npm](https://www.npmjs.com/), _package manager_, and so on). Choose the better solution for you.
+
+## How to Change the Style Guide
+
+The current style guide is focusing on _data_ and not on the language syntax. If you don't like
+that, you can change the style rules just by modifying the `.clang-format` file. Take a look at
+[documentation](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) for more information.
