@@ -171,6 +171,7 @@ set shortmess+=c                " !REQUIRED BY COC: don't pass messages to |ins-
 set fileencoding=utf8
 set encoding=utf8
 set termencoding=utf8
+set conceallevel=0              " Determine how text with the "conceal" syntax attribute is shown
 set number                      " precede each line with its number
 set relativenumber              " Show the line number relative to the cursor position
 set nocompatible                " Not compatible with VI
